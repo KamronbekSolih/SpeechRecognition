@@ -1,0 +1,18 @@
+<Yordamchi>
+    GridLayout:
+        cols:1
+        size: root.width - 100, root.height - 100
+        pos: 50, 50
+        Label:
+            text: "Kakku"
+
+        GridLayout:
+            cols: 2
+
+            Button:
+                text:"Cancel"
+                on_press: root.cancel()
+
+            Button:
+                text:"Start"
+                on_press: root.start()
